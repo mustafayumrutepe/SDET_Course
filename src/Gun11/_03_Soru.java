@@ -26,7 +26,7 @@ public class _03_Soru extends BaseDriver {
         driver.switchTo().frame(0); // ilk frame e geçildi.
         WebElement input=driver.findElement(By.cssSelector("#topic+input"));
         input.sendKeys("Türkiye");
-        // Şu anda 1.frame in içideyim , onun içinde ki frame gidicem
+        // Şu anda ilk frame in içideyim , onun içinde ki frame gidicem
         // 1 tane olduğu için index 0
         driver.switchTo().frame(0);
         WebElement chkBox= driver.findElement(By.id("a"));

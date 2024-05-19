@@ -1,0 +1,10 @@
+HTML içinde olan her element asllında ekranda gözükmeyebilir.
+
+bir element ekranda gözükmüyor diye html de yok diyemeyiz.
+
+findelement bunu bulun , çünkü findelement html de var mı yok mu ona bakar
+
+o zamna ben elementlerin durumunu kontrol edebiliyor olmam lazım
+    displayed
+    selected
+    enabled

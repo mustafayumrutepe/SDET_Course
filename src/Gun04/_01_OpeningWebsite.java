@@ -7,13 +7,16 @@ import org.openqa.selenium.chrome.ChromeDriver;
 public class _01_OpeningWebsite {
     public static void main(String[] args) {
 
-        // oop WebDriver:Interface,Parent Class        ChromeDriver,FirefoxDriver,EdgeDriver:  child class
+        // oop WebDriver->Interface,Parent Class        ChromeDriver,FirefoxDriver,EdgeDriver-> child class
         WebDriver driver = new ChromeDriver(); // driver = browser, tarayıcı
 //        WebDriver driver2= new FirefoxDriver();
 //        WebDriver driver3= new EdgeDriver();
 
         driver.get("https://techno.study/tr"); //  web sayfasını açma
 
+                //NOT:web sayfası açıldıktan sonra onu kendimiz manuel olarak kapatsak bile
+                //gerçekte kapanmıyor, bunu task managerda görebiliriz, ve bilgisayarımzı yavaşlatıyor
+                //onun için aşagıdaki gibi driver.close veya driver.quit yapmalıyız.
 
         MyFunc.Bekle(3);
         //driver.close(); // o anda aktif olan açık tarayıcıyı kapatıyor,
@@ -27,7 +30,7 @@ public class _01_OpeningWebsite {
 //    hata olmayan ama run yapınca olusan kırmızılıkların gıtmesı için adımlar:
 //
 //        sdet6 nın üzerine tıkla
-//        sonra sağtıkla
+//        sonra sağ tıkla
 //open module settings e tıkla
 //libraries e tıkla
 //+ işaretine tıkla

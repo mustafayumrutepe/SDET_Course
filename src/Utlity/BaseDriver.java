@@ -14,6 +14,7 @@ public class BaseDriver {
     public static WebDriver driver; // SingletonDriver method
     public static WebDriverWait wait;
 
+    //public static DriverBaslat()
     static{  //bunun sarti extends olmasi ve basta yer almasi mi
 
         Logger logger= Logger.getLogger(""); // output yapılan logları al.

@@ -28,4 +28,4 @@ WebElementin verilen kritere uygun hale gelene kadar verilen mühlet.
 tıklanabilir olana kadar bekle
 DOM da olana kadar bekle
 Görünür olana kadar bekle.
-Bu bekleme elemente özel.
+Bu bekleme elemente özel. yani her elementin kendine özel kullalnılıyor

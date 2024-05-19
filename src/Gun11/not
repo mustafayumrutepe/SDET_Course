@@ -1,0 +1,20 @@
+iframe içindekileri html içinde görebiliriz ama bunları webelement olarak alamıyoruz,
+çünkü başka bir sayfa oluyor bu, yani body nin içinde değil bu başka bir sayfa oluyor.
+
+ kolaylık olsun diye bize html de gösteriliyor ama aslında bu başka bir sayfanın içindedir.
+ o yüzden bizim önce switchto ile bu iframe içinde geçmemiz lazım.
+
+
+----------------------------------------------------------------------------------------------------
+
+
+ scriptfoto da görüldüğü gibi script html içinde ayrı bir bölümdür. script niye deniyor?
+ script direk bir program değil çalışan bir program değil ama biri onu çalıştırısa harekete geçirirse çalışan bir bölümdür
+ mesela chrome un onu çalıştırması lazım, derlemesi ve çalışması aynı anda oluyor.
+
+ html de niye böyle bir şeye ihtiyaç duymuşlar?
+ sayfada bir yere tıklandığı zaman ekranda bir hareketlilik olsun bir yer açılsın falan istiyorsak script kullanııyoruz
+
+ ama javascript in en önemli kısmı bir elemente sayfada tıkalnamıyorsa yani önüne bir şey gelmişse falan
+ ve tıklanamıyorsa ona javascript kodu içinden tıklayabilmemizi sağlıyor
+

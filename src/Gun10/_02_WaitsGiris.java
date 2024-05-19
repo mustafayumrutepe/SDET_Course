@@ -20,7 +20,7 @@ public class _02_WaitsGiris extends BaseDriver {
         btn.click();
 
         //WebElement msj=driver.findElement(By.id("demo"));
-        //Thread.sleep(20000); // 20sn  gereksiz fazla bekleme yapıyor
+        //Thread.sleep(20000); // 20sn , gereksiz fazla bekleme yapıyor
 
         WebElement msj=driver.findElement(By.xpath("//p[text()='WebDriver']"));
         System.out.println("msj.getText() = " + msj.getText());

@@ -23,7 +23,7 @@ public class _01_WindowsGiris extends BaseDriver {
         List<WebElement> linkler = driver.findElements(By.cssSelector("a[target='_blank']"));
 
         for (WebElement e : linkler) {
-            // e.click();
+            // e.click();   //bunu tıklatamadığımızın sebebi sayfanın altında kalması ve sayfayın tam kaydıramadığı için tıklatamadık, bu yüzden javascript ile tıklatıyoruz.
             js.executeScript("arguments[0].click();", e);
         }
 
@@ -37,3 +37,5 @@ public class _01_WindowsGiris extends BaseDriver {
         BekleVeKapat();
     }
 }
+//NOT: web sayfasında tıklandığında yeni bir sekme (seleniumda buna new winow denir) açan linkler html de
+// a tagi ve target=_blank olanlardır.

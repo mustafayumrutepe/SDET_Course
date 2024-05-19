@@ -48,3 +48,10 @@ public class _03_ExplicitWait extends BaseDriver {
     }
 
 }
+
+//NOT:selenium un önerisi: bekletme konusunda ExplicitWait kullanın tavsiyesi var
+//dezavantajı her element için ayrı ayrı kullanman gerekiyor kod yoğunluğu oluyor,
+// ama cucumber da bunu ayrı bir dosyadan çekerek kulllanacağımız için cucumber da bu problem olmaz
+
+//Implicit Wait dezavantajı element html de var ama tıklanabilir değilse yada görünür değilse implicitwait kullanışsızdır
+//bunun yerinde explicit wait ile eleman görünür olana kadar bekle diyebilirsin

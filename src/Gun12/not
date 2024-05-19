@@ -1,0 +1,16 @@
+set  lerde index yok, sıra kavramı yok
+
+arraylist lerde index var,
+get(0) 0. eleman
+get(1) 1. eleman
+
+
+
+
+şimdi demişler ki setlerde sıra yok peki ama nasıl bunları bir sıraya sokabiliriz?
+
+Iterator diye bir gösterge yazallım demişler.
+
+Iterator gosterge= idlerin.Iterator();
+gosterge.Next() ilk elemana gider
+gosterge.Next() 2. elemana

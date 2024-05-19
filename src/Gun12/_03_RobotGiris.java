@@ -19,6 +19,13 @@ import java.util.Set;
  */
 
 
+/*
+NOT: selenium web de çalışıyor. web in dışına çıktığı anda windows elementidir ve orda selenium çalışmaz,
+işte bu yüzden robot kullanıyoruz.
+Bunu java ile yapacaz çünkü java windows a ulaşabiliyor.
+YANİ ASLINDA BEN SELENİUM UN YETMEDİĞİ DURUMLARDA JAVA YA DİYORUM Kİ SEN BANA WİNDOWS UN KLAVYESİNİ KULLAN
+ */
+
 public class _03_RobotGiris extends BaseDriver {
 
     @Test
@@ -57,3 +64,9 @@ public class _03_RobotGiris extends BaseDriver {
 
 
 }
+/*
+- webElementleri kiminle kontrol ediyoruz? selenium ile
+
+- windows pencerelrini kiminle kontrol ediyourz? robot class ile
+
+ */
