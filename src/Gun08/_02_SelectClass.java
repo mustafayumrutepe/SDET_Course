@@ -14,9 +14,9 @@ public class _02_SelectClass extends BaseDriver {
 
         WebElement webMenu=driver.findElement(By.id("searchDropdownBox"));
 
-        Select ddMenu=new Select(webMenu); // elementi daha raht kullanılabilir SELECT nesnesi haline dönüştürdü.
+        Select ddMenu=new Select(webMenu); // elementi daha rahat kullanılabilir SELECT nesnesi haline dönüştürdü.
 
-        // bu element select tag i ile başlıyorsa, sne bunu SELECT e cast yap ve öyle kullan.
+        // bu element select tag i ile başlıyorsa, sen bunu SELECT e cast yap ve öyle kullan.
 
         //ddMenu.selectByIndex(4); //// ister bu şekilde seçebilirsin   : indexle
         //ddMenu.selectByValue("search-alias=electronics-intl-ship"); // ister bu şekilde seçebilirsin : value ile

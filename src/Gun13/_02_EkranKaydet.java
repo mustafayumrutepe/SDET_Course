@@ -18,7 +18,7 @@ public class _02_EkranKaydet extends BaseDriver {
         driver.get("https://opensource-demo.orangehrmlive.com/web/index.php/auth/login");
         MyFunc.Bekle(2);
 
-        //kendine kod yazıyorsun
+        //kendine kod yazıyorsan
         driver.findElement(By.name("username")).sendKeys("ismet");
         driver.findElement(By.name("password")).sendKeys("1234");
 
@@ -39,14 +39,13 @@ public class _02_EkranKaydet extends BaseDriver {
 
             //3.Aşama hafızadaki ekran görütüsününü fiziksel dosyaya kaydetmem gerekiyor.
             //hafızadaki ekran kaydını, yolunu(path) ini ve ismini verdiğim şu dosyaya kaydet
-            FileUtils.copyFile(hafidakiHali, new File("ekranGoruntuleri\\screenshot.png"));
+            FileUtils.copyFile(hafidakiHali, new File("ekranGoruntuleri\\screenshot.png")); //bunu google dan araştırıp buldum ve yazdım buraya, Stack Overflow sitesinden aldım, bu site genelde dunya çapında bilinen kod paylaşılan bir site
 
-            // TODO : Öyle bir şey yapınki her ekran kaydı , AYRI kaydedilsin.
         }
-
 
         BekleVeKapat();
     }
 
-
 }
+// TODO : Öyle bir şey yapınki her ekran kaydı , AYRI kaydedilsin.
+//FileUtils.copyFile(hafidakiHali, new File("ekranGoruntuleri\\screenshot"+yilaygunsaatdksan+".png"));

@@ -9,7 +9,7 @@ iframe içindekileri html içinde görebiliriz ama bunları webelement olarak al
 
 
  scriptfoto da görüldüğü gibi script html içinde ayrı bir bölümdür. script niye deniyor?
- script direk bir program değil çalışan bir program değil ama biri onu çalıştırısa harekete geçirirse çalışan bir bölümdür
+ script direk bir program değil, çalışan bir program değil ama biri onu çalıştırısa harekete geçirirse çalışan bir bölümdür
  mesela chrome un onu çalıştırması lazım, derlemesi ve çalışması aynı anda oluyor.
 
  html de niye böyle bir şeye ihtiyaç duymuşlar?

@@ -11,7 +11,7 @@ public class _04_GetCssValue extends BaseDriver {
         WebElement inputValEnter=driver.findElement(By.id("inputValEnter"));
 
         // elemanın attribute larına ulaşmak için getAttribute u kullanıyoruz.
-        System.out.println("inputValEnter.getAttribute(class) = " + inputValEnter.getAttribute("class"));
+        System.out.println("inputValEnter.getAttribute(class) = " + inputValEnter);
 
         // Class ı n karşığı olan CSS-Şekillendirme değerlerini almak için getCssValue kullanılır
         System.out.println("inputValEnter.getCssValue(color) = " + inputValEnter.getCssValue("color"));

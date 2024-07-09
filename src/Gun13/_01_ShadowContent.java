@@ -29,8 +29,15 @@ public class _01_ShadowContent extends BaseDriver {
 
 }
 
+//bu sitede shadow ile çerezler çıkıyor ve bunu kapatmak için sahdow un içine girmemiz gerekiyor
 
 
+//shadow-root aynı bir frame gibi davranıyor. bu nadir karşımıza çıkacak bir şeydir
+
+//DOM : HTML iç yapısının adı
+// <> </>
+
+//shadow DOM : saklı DOM
 
 
 

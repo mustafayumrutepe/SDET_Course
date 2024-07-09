@@ -95,4 +95,4 @@ public class _04_RobotFileUpload extends BaseDriver {
 
 }
 
-//NOT: desctopta bir dosyanın üzerindeyken shift sağ tuş yapınca bize "copy path" yani dosyanın yerini verir
+//NOT: desktopta bir dosyanın üzerindeyken shift sağ tuş yapınca bize "copy path" yani dosyanın path ini verir

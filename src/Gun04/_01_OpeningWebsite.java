@@ -29,7 +29,7 @@ public class _01_OpeningWebsite {
 
 //    hata olmayan ama run yapınca olusan kırmızılıkların gıtmesı için adımlar:
 //
-//        sdet6 nın üzerine tıkla
+//        projenın üzerine tıkla
 //        sonra sağ tıkla
 //open module settings e tıkla
 //libraries e tıkla
